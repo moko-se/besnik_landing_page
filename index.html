@@ -16,7 +16,415 @@
 </head>
 
 <body>
+    <!-- HEADER -->
+    <header>
+        <div class="wrapper">
+            <!-- logo du site -->
+            <h1 class="brand title-h2 title">Besnik</h1>
+            <!-- navigation du site -->
+            <nav class="navbar">
+                <a href="#" title="Home" class="navLink">Home</a>
+                <a href="#" title="About" class="navLink">About</a>
+                <a href="#" title="Properties" class="navLink">Properties</a>
+                <a href="#" title="Contact" class="navLink">Contact</a>
+                <a href="#" title="signup" class="navLink btn">Sign up</a>
+            </nav>
 
+            <!-- toggle button  -->
+            <div class="menuWrapper">
+                <div class="hamburger-menu"></div>
+            </div>
+            <div class="navActive">
+                <a href="#" title="Home" class="navLink">Home</a>
+                <a href="#" title="About" class="navLink">About</a>
+                <a href="#" title="Properties" class="navLink">Properties</a>
+                <a href="#" title="Contact" class="navLink">Contact</a>
+                <a href="#" title="signup" class="navLink btn">Sign up</a>
+            </div>
+        </div>
+
+    </header>
+    <!-- CONTENT -->
+    <main>
+        <!-- landing page -->
+        <article id="secLanding">
+            <div class="wrapper">
+                <div class="box">
+                    <div class="boxContentLanding">
+                        <h2 class="title-h1 title">Let's find a moderne <span>home for you</span></h2>
+                        <p class="text">Find a home or space from our seach bar. Enter your <span>specific location, property type and price range</span></p>
+                        <div class="form">
+                            <form action="#" method="get">
+                                <div class="form-group">
+                                    <label class="text" for="city">City/Street</label>
+                                    <select name="city" id="city">
+                                        <option value="default">New York City</option>
+                                        <option value="1">Miami</option>
+                                        <option value="2">Washington</option>
+                                    </select>
+                                    <!-- <p class="text">New York City</p> -->
+                                </div>
+                                <div class="form-group">
+                                    <label class="text">Property Type</label>
+                                    <select name="city" id="city">
+                                        <option value="default">Duplex House</option>
+                                        <option value="1">Hood House</option>
+                                        <option value="2">Moderne House</option>
+                                    </select>
+
+                                </div>
+                                <div class="form-group">
+                                    <label class="text">Price Range</label>
+                                    <select name="city" id="city">
+                                        <option value="default">$18.000 - 30.000$</option>
+                                        <option value="1">$30.000 - 50.000$</option>
+                                        <option value="2">$50.000 - 80.000$</option>
+                                    </select>
+
+                                </div>
+                                <div class="form-group">
+                                    <button type="submit" class="btn"><i class="fas fa-search"></i> Search</button>
+                                </div>
+
+                            </form>
+                        </div>
+                    </div>
+                    <div class="boxContainImg">
+                        <div class="boxImg">
+                            <figure>
+                                <img src="./assets/img/house.jpg" alt="description image">
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+                <!-- sponsors -->
+                <ul class="sponsoring">
+                    <li>
+                        <p class="title-h2 title"><span><i class="fab fa-dropbox"></i></span> Dropbox</p>
+                    </li>
+                    <li>
+
+                        <p class="title-h2 title"> <span><i class="fab fa-airbnb"></i></span> Airbnb</p>
+                    </li>
+                    <li>
+                        <p class="title-h2 title">Github</p>
+                    </li>
+                    <li>
+                        <p class="title-h2 title">NETFLIX</p>
+                    </li>
+                    <li>
+                        <p class="title-h2 title">HBO</p>
+                    </li>
+                </ul>
+            </div>
+        </article>
+
+        <!-- choose us -->
+        <article id="chooseus">
+            <div class="wrapper">
+                <div class="boxLeft">
+                    <h2 class="title title-h1">Why choose us</h2>
+                    <ul class="listWhy">
+                        <li>
+                            <div class="contentRight">
+                                <h3 class="title-h3 title">East and safe</h3>
+                                <p class="text">Find your many real property type</p>
+                            </div>
+                            <p class="icon"><i class="fas fa-shield-alt"></i></p>
+                        </li>
+                        <li>
+                            <div class="contentRight">
+                                <h3 class="title-h3 title">Investement property</h3>
+                                <p class="text">On the residence platform</p>
+                            </div>
+                            <p class="icon"><i class="fas fa-building"></i></p>
+                        </li>
+                        <li>
+                            <div class="contentRight">
+                                <h3 class="title-h3 title">Trusted Partnerships</h3>
+                                <p class="text">More tan 10 partners who work</p>
+                            </div>
+
+                            <p class="icon"><i class="fas fa-handshake"></i></p>
+                        </li>
+                        <li>
+                            <div class="contentRight">
+                                <h3 class="title-h3 title">License and Contracts</h3>
+                                <p class="text">Contrary to popular</p>
+                            </div>
+
+                            <p class="icon"><i class="fas fa-file-signature"></i></p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="boxRight">
+                    <p class="text">Finding a porperty that's outside the font dor is just as important as what's behind it</p>
+                    <button class="btn">Explore Now</button>
+                    <div class="boxImgUs">
+                        <figure>
+                            <img src="./assets/img/appartment.jpg" alt="appartment">
+                        </figure>
+                    </div>
+                    <div class="buildOn">
+                        <p>Build On </p>
+                        <span class="title title-h3">5000+</span>
+                    </div>
+                    <div class="reviews">
+                        <ul class="imglist">
+                            <li>
+                                <figure>
+                                    <img src="./assets/img/p1.jpg" alt="description">
+                                </figure>
+                            </li>
+                            <li>
+                                <figure>
+                                    <img src="./assets/img/p2.jpg" alt="description">
+                                </figure>
+                            </li>
+                            <li>
+                                <figure>
+                                    <img src="./assets/img/p3.jpg" alt="description">
+                                </figure>
+                            </li>
+                            <li>
+                                <figure>
+                                    <img src="./assets/img/p1.jpg" alt="description">
+                                </figure>
+                            </li>
+                            <li>
+                                <span> <i class="fas fa-plus"></i></span>
+                            </li>
+                        </ul>
+                        <p>8000+ reviews</p>
+                    </div>
+                </div>
+            </div>
+        </article>
+
+        <!-- feature -->
+        <section id="feature">
+            <div class="wrapper">
+                <h2 class="title title-h1">Feature property</h2>
+                <div class="boxfeat">
+                    <p class="text">Our unique process gives you peace of mind from home rent to services</p>
+                    <a href="#" class="btn-feature">View All</a>
+                </div>
+                <div class="boxFeature">
+                    <article class="feature">
+                        <div class="infoTop">
+                            <h3 class="title title-h3">Arumba Hill</h3>
+                            <p class="title-h3 title">$ 19,000</p>
+                        </div>
+                        <div class="infoBottom">
+                            <p class="city"><span><i class=" fas fa-map-marker-alt"></i></span> Cleveland, US</p>
+                            <p class="">
+                                <span class="bed"> <i class="fas fa-bed"></i> 3</span>
+                                <span class="bed"> <i class="fas fa-bath"></i> 2</span>
+                            </p>
+                        </div>
+                        <div class="boxImgFeat">
+                            <figure>
+                                <img src="./assets/img/h1.jpg">
+                            </figure>
+                        </div>
+                        <div class="others">
+                            <button class="btn__"><span><i class="fas fa-camera"></i></span> 4</button>
+                            <button class="btn__"><span><i class="fas fa-film"></i></span> 1</button>
+                        </div>
+                    </article>
+                    <article class="feature">
+                        <div class="infoTop">
+                            <h3 class="title title-h3">Little white Cutie</h3>
+                            <p class="title-h3 title">$ 29,000</p>
+                        </div>
+                        <div class="infoBottom">
+                            <p class="city"><span><i class=" fas famap-marker-alt"></i></span> Williamsbridge, Bronx</p>
+                            <p class="text">
+                                <span class="bed"> <i class="fas fa-bed"></i> 5</span>
+                                <span class="bed"> <i class="fas fa-bath"></i> 3</span>
+                            </p>
+                        </div>
+                        <div class="boxImgFeat">
+                            <figure>
+                                <img src="./assets/img/h2.jpg">
+                            </figure>
+                        </div>
+                        <div class="others">
+                            <button class="btn__"><span><i class="fas fa-camera"></i></span> 6</button>
+                            <button class="btn__"><span><i class="fas fa-film"></i></span> 2</button>
+                        </div>
+                    </article>
+                    <article class="feature">
+                        <div class="infoTop">
+                            <h3 class="title title-h3">The glassed star</h3>
+                            <p class="title-h3 title">$ 49,000</p>
+                        </div>
+                        <div class="infoBottom">
+                            <p class="city"><span><i class=" fas famap-marker-alt"></i></span> Soho, Brooklyn</p>
+                            <p class="text">
+                                <span class="bed"> <i class="fas fa-bed"></i> 7</span>
+                                <span class="bed"> <i class="fas fa-bath"></i> 6</span>
+                            </p>
+                        </div>
+                        <div class="boxImgFeat">
+                            <figure>
+                                <img src="./assets/img/h3.jpg">
+                            </figure>
+                        </div>
+                        <div class="others">
+                            <button class="btn__"><span><i class="fas fa-camera"></i></span> 8</button>
+                            <button class="btn__"><span><i class="fas fa-film"></i></span> 5</button>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Customers -->
+        <section id="customers">
+            <div class="wrapper">
+                <h2 class="title title-h1">Customers Stories</h2>
+                <div class="boxCustomers">
+                    <article class="customer">
+                        <div class="top">
+                            <div class="contentT">
+                                <h3 class="title title-h3">Stark joseph</h3>
+                                <p class="text">San francisco</p>
+                            </div>
+                            <div class="boxImgCus">
+                                <figure>
+                                    <img src="./assets/img/p1.jpg">
+                                </figure>
+                            </div>
+                        </div>
+                        <p class="text">Very responsive and professional team. I highly recommend !</p>
+                        <div class="stars">
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="far fa-star"></i></span>
+                        </div>
+                    </article>
+                    <article class="customer">
+                        <div class="top">
+                            <div class="contentT">
+                                <h3 class="title title-h3">Chaz Robarto</h3>
+                                <p class="text">Mira Road, USA</p>
+                            </div>
+                            <div class="boxImgCus">
+                                <figure>
+                                    <img src="./assets/img/p3.jpg">
+                                </figure>
+                            </div>
+
+                        </div>
+                        <p class="text">Very high professiownalism and very responsive, the clickandrentteam deserves all your trust</p>
+                        <div class="stars">
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                        </div>
+                    </article>
+                    <article class="customer">
+                        <div class="top">
+                            <div class="contentT">
+                                <h3 class="title title-h3">Alexandre Vignoli</h3>
+                                <p class="text">Owner</p>
+                            </div>
+                            <div class="boxImgCus">
+                                <figure>
+                                    <img src="./assets/img/p2.jpg">
+                                </figure>
+                            </div>
+                        </div>
+                        <p class="text">Very good experience for reting an appartment! A professional and very responsive</p>
+                        <div class="stars">
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="far fa-star"></i></span>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- EMAILLING -->
+        <article id="email">
+            <div class="wrapper">
+                <h2 class="title title-h1">Are you a home owner</h2>
+                <p class="text">Put your email address and get listed</p>
+                <form action="#" class="formulaire">
+                    <div class="form_group">
+                        <label for="emailaddress"></label>
+                        <input type="email" class="form_control" name="email" id="emailaddress" placeholder="Enter email address" autocomplete="false">
+                    </div>
+                    <button class="btn" type="submit">Get Listed</button>
+                </form>
+            </div>
+        </article>
+    </main>
+    <!-- FOOTER -->
+    <footer>
+        <div class="wrapper">
+            <div class="topFooter">
+                <div class="leftFooter">
+                    <h2 class="title title-h2">Besnik</h2>
+                    <p class="text">The team at premium Real Estate are more than real estate agents listing</p>
+                </div>
+                <div class="rightFooter">
+                    <ul class="othersFooter">
+                        <li>
+                            <h3 class="title title-h3">About</h3>
+                            <div class="navFooter">
+                                <a href="#">Propeties</a>
+                                <a href="#">Contact</a>
+                                <a href="#">Services</a>
+                            </div>
+                        </li>
+                        <li>
+                            <h3 class="title title-h3">Product</h3>
+                            <div class="navFooter">
+                                <a href="#">Home design</a>
+                                <a href="#">Property Design</a>
+                                <a href="#">Apartement</a>
+                            </div>
+                        </li>
+                        <li>
+                            <h3 class="title title-h3">Blog</h3>
+                            <div class="navFooter">
+                                <a href="#">Company</a>
+                                <a href="#">Leadership</a>
+                                <a href="#">Diversity</a>
+                            </div>
+                        </li>
+                        <li>
+                            <h3 class="title title-h3">Support</h3>
+                            <div class="navFooter">
+                                <a href="#">Help</a>
+                                <a href="#">Management</a>
+                                <a href="#">Privacy Poliace</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+            <div class="bottomFooter">
+                <p class="text">Copyright 2021.com, All rights reserved.</p>
+                <p class="text">
+                    <a href="#">Term & Conditions</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- script -->
+    <script src="./assets/js/main.js"></script>
 </body>
 
 </html>
